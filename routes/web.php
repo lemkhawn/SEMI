@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Basic routes 
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/index', function () {
     return view('index');
 });
@@ -40,3 +46,8 @@ Route::get('/tab', function () {
 Route::get('/chan', function () {
     return view('chandeliers');
 });
+
+// Route login and register
+Route::get('/login', 'loginController@getLogin');
+// Route::post('/login', 'loginController@postLogin');	
+Route::get('/register', 'loginController@getSignup');
