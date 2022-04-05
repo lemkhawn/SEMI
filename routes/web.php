@@ -46,6 +46,12 @@ Route::get('/tab', function () {
 Route::get('/chan', function () {
     return view('chandeliers');
 });
+Route::get('/Login', function () {
+    return view('Login');
+});
+Route::get('/Register', function () {
+    return view('Register');
+});
 
 // Route login and register
 Route::get('/login', 'loginController@getLogin');
