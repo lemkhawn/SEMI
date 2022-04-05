@@ -98,13 +98,13 @@
             <a href="cart">
             <i class="fa-solid fa-cart-shopping"aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="Login">
               <span>
                 Login
               </span>
               <i class="fa fa-user" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="Register">
               <span>
                 Sign up
               </span>

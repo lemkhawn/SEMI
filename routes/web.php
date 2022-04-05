@@ -40,3 +40,9 @@ Route::get('/table', function () {
 Route::get('/chandeliers', function () {
     return view('chandeliers');
 });
+Route::get('/Login', function () {
+    return view('Login');
+});
+Route::get('/Register', function () {
+    return view('Register');
+});
