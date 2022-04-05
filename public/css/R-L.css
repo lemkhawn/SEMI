@@ -1,32 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
-.container{
+.container-r{
   max-width: 700px;
   width: 100%;
   background-color: #fff;
   padding: 25px 30px;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 5px 40px rgba(0,0,0,0.15);
+  margin: auto;
 }
-.container .title{
+.container-r .title{
   font-size: 25px;
   font-weight: 500;
   position: relative;
 }
-.container .title::before{
+.container-r .title::before{
   content: "";
   position: absolute;
   left: 0;
@@ -36,22 +23,22 @@ body{
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.content form .user-details{
+.content-r form .user-details-r{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
-form .user-details .input-box{
+form .user-details-r .input-box-r{
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
-form .input-box span.details{
+form .input-box-r span.details{
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.user-details .input-box input{
+.user-details-r .input-box-r input{
   height: 45px;
   width: 100%;
   outline: none;
@@ -62,26 +49,26 @@ form .input-box span.details{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.user-details-r .input-box-r input:focus,
+.user-details-r .input-box-r input:valid{
   border-color: #9b59b6;
 }
- form .gender-details .gender-title{
+ form .gender-details-r .gender-title{
   font-size: 20px;
   font-weight: 500;
  }
- form .category{
+ form .category-r{
    display: flex;
    width: 80%;
    margin: 14px 0 ;
    justify-content: space-between;
  }
- form .category label{
+ form .category-r label{
    display: flex;
    align-items: center;
    cursor: pointer;
  }
- form .category label .dot{
+ form .category-r label .dot{
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -121,26 +108,26 @@ form .input-box span.details{
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
   }
  @media(max-width: 584px){
- .container{
+ .container-r{
   max-width: 100%;
 }
-form .user-details .input-box{
+form .user-details-r .input-box-r{
     margin-bottom: 15px;
     width: 100%;
   }
-  form .category{
+  form .category-r{
     width: 100%;
   }
-  .content form .user-details{
+  .content-r form .user-details-r{
     max-height: 300px;
     overflow-y: scroll;
   }
-  .user-details::-webkit-scrollbar{
+  .user-details-r::-webkit-scrollbar{
     width: 5px;
   }
   }
   @media(max-width: 459px){
-  .container .content .category{
+  .container-r .content-r .category-r{
     flex-direction: column;
   }
 }
