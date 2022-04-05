@@ -34,9 +34,9 @@ Route::get('/cart', function () {
 Route::get('/chair', function () {
     return view('chair');
 });
-Route::get('/tab', function () {
+Route::get('/table', function () {
     return view('table');
 });
-Route::get('/chan', function () {
+Route::get('/chandeliers', function () {
     return view('chandeliers');
 });
