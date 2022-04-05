@@ -22,5 +22,4 @@
       </form>
     </div>
   </div>
-</body>
-</html>
+  @include('footer')
