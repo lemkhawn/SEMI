@@ -40,3 +40,9 @@ Route::get('/tab', function () {
 Route::get('/chan', function () {
     return view('chandeliers');
 });
+Route::get('/Register', function () {
+    return view('Register');
+});
+Route::get('/Login', function () {
+    return view('Login');
+});
