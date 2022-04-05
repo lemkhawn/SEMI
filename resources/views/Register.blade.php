@@ -1,4 +1,4 @@
-@include('R-L')
+@include('Header')
 @yield('Register')
 <body>
   <div class="container">
