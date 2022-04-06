@@ -1,5 +1,5 @@
 @include('header')
-@yield()
+@yield('chair')
   <!-- furniture section -->
 
   <section class="furniture_section layout_padding">

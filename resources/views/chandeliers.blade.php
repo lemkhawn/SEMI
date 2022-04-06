@@ -1,12 +1,12 @@
 @include('header')
-@yield()
+@yield('chandeliers')
   <!-- furniture section -->
 
   <section class="furniture_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Our Furniture
+          Our Furnitures
         </h2>
         <p>
           which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't an
